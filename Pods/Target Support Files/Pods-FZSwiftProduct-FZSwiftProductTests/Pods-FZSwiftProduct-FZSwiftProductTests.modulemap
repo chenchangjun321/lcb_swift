@@ -1,0 +1,6 @@
+framework module Pods_FZSwiftProduct_FZSwiftProductTests {
+  umbrella header "Pods-FZSwiftProduct-FZSwiftProductTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

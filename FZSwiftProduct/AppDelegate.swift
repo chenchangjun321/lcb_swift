@@ -12,10 +12,47 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+  private  lazy var homeVC:FZBaseViewController={
+        let homeVC = FZHomeVC.init(nibName: "FZHomeVC", bundle: nil)
+        homeVC.tabBarItem.image = UIImage.init(named: "xiaoer_tab_homeiconY")
+        homeVC.tabBarItem.title = "首页"
+        return homeVC
+    }()
+    
+    private lazy var customerVC:FZBaseViewController = {
+        let customerVC = FZCustomerVC.init(nibName: "FZCustomerVC", bundle: nil)
+        customerVC.tabBarItem.image = UIImage.init(named: "xiaoer_tab_customericonY")
+        customerVC.tabBarItem.title = "客户"
+        return customerVC;
+    }()
+    
+    private lazy var storeVC:FZBaseViewController = {
+        let storeVC = FZStoreVC.init(nibName: "FZStoreVC", bundle: nil)
+        storeVC.tabBarItem.image = UIImage.init(named: "xiaoer_tab_shopY")
+        storeVC.tabBarItem.title = "店铺"
+        return storeVC;
+    }()
+    
+    private lazy var mineVC:FZBaseViewController = {
+        let mineVC = FZMineVC.init(nibName: "FZMineVC", bundle: nil)
+        mineVC.tabBarItem.image = UIImage.init(named: "xiaoer_tab_usericonY")
+        mineVC.tabBarItem.title = "我的"
+        return mineVC
+    }()
+    
+  private  lazy var myTabBarController:FZBaseTabarController={
+        let   myTabBarController = FZBaseTabarController()
+        let nav1  = FZBaseNavigationController.init(rootViewController: self.homeVC)
+        let nav2 = FZBaseNavigationController.init(rootViewController: self.customerVC);
+        let nav3 = FZBaseNavigationController.init(rootViewController: self.storeVC)
+        let nav4 = FZBaseNavigationController.init(rootViewController: self.mineVC)
+        myTabBarController.viewControllers = [nav1,nav2,nav3,nav4]
+        return myTabBarController
+    }()
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window?.rootViewController = self.myTabBarController;
         return true
     }
 

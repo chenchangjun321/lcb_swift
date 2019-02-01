@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6658E73DB20021F6CF688C /* Pods_FZSwiftProduct_FZSwiftProductTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAF79B269AC659819AFE3A0 /* Pods_FZSwiftProduct_FZSwiftProductTests.framework */; };
+		4145020A8ACD8BD54C50BCCB /* Pods_FZSwiftProduct_FZSwiftProductUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE93CC94F40320D2EAE10D4A /* Pods_FZSwiftProduct_FZSwiftProductUITests.framework */; };
 		B713ECCB2202836500EED33A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ECCA2202836500EED33A /* AppDelegate.swift */; };
 		B713ECCD2202836500EED33A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ECCC2202836500EED33A /* ViewController.swift */; };
 		B713ECD02202836500EED33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B713ECCE2202836500EED33A /* Main.storyboard */; };
@@ -14,6 +16,34 @@
 		B713ECD52202836600EED33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B713ECD32202836600EED33A /* LaunchScreen.storyboard */; };
 		B713ECE02202836600EED33A /* FZSwiftProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ECDF2202836600EED33A /* FZSwiftProductTests.swift */; };
 		B713ECEB2202836600EED33A /* FZSwiftProductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ECEA2202836600EED33A /* FZSwiftProductUITests.swift */; };
+		B713ECFB2202864F00EED33A /* FZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ECFA2202864F00EED33A /* FZBaseViewController.swift */; };
+		B713ECFD220286A100EED33A /* FZBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ECFC220286A100EED33A /* FZBaseNavigationController.swift */; };
+		B713ECFF2202898600EED33A /* FZBaseTabarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ECFE2202898600EED33A /* FZBaseTabarController.swift */; };
+		B713ED0522029B7800EED33A /* FZHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ED0322029B7800EED33A /* FZHomeVC.swift */; };
+		B713ED0622029B7800EED33A /* FZHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B713ED0422029B7800EED33A /* FZHomeVC.xib */; };
+		B713ED0A22029EBC00EED33A /* FZCustomerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ED0822029EBC00EED33A /* FZCustomerVC.swift */; };
+		B713ED0B22029EBC00EED33A /* FZCustomerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B713ED0922029EBC00EED33A /* FZCustomerVC.xib */; };
+		B713ED0F2202A12500EED33A /* FZStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ED0D2202A12500EED33A /* FZStoreVC.swift */; };
+		B713ED102202A12500EED33A /* FZStoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B713ED0E2202A12500EED33A /* FZStoreVC.xib */; };
+		B713ED142202A17700EED33A /* FZMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713ED122202A17700EED33A /* FZMineVC.swift */; };
+		B713ED152202A17700EED33A /* FZMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B713ED132202A17700EED33A /* FZMineVC.xib */; };
+		B713ED252202D09000EED33A /* xiaoer_tab_customericonY@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED222202D08F00EED33A /* xiaoer_tab_customericonY@3x.png */; };
+		B713ED262202D09000EED33A /* xiaoer_tab_customericonY@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED232202D08F00EED33A /* xiaoer_tab_customericonY@1x.png */; };
+		B713ED272202D09000EED33A /* xiaoer_tab_customericonY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED242202D08F00EED33A /* xiaoer_tab_customericonY@2x.png */; };
+		B713ED312202D1CA00EED33A /* xiaoer_tab_homeiconY@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED2E2202D1CA00EED33A /* xiaoer_tab_homeiconY@1x.png */; };
+		B713ED322202D1CA00EED33A /* xiaoer_tab_homeiconY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED2F2202D1CA00EED33A /* xiaoer_tab_homeiconY@2x.png */; };
+		B713ED332202D1CA00EED33A /* xiaoer_tab_homeiconY@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED302202D1CA00EED33A /* xiaoer_tab_homeiconY@3x.png */; };
+		B713ED372202D30100EED33A /* xiaoer_tab_shopY@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED342202D30000EED33A /* xiaoer_tab_shopY@3x.png */; };
+		B713ED382202D30100EED33A /* xiaoer_tab_shopY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED352202D30000EED33A /* xiaoer_tab_shopY@2x.png */; };
+		B713ED392202D30100EED33A /* xiaoer_tab_shopY@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED362202D30000EED33A /* xiaoer_tab_shopY@1x.png */; };
+		B713ED432202D3F600EED33A /* xiaoer_tab_usericonY@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED402202D3F500EED33A /* xiaoer_tab_usericonY@1x.png */; };
+		B713ED442202D3F600EED33A /* xiaoer_tab_usericonY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED412202D3F500EED33A /* xiaoer_tab_usericonY@2x.png */; };
+		B713ED452202D3F600EED33A /* xiaoer_tab_usericonY@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B713ED422202D3F500EED33A /* xiaoer_tab_usericonY@3x.png */; };
+		B7D269B72203D7CB0090AD63 /* FZConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D269B62203D7CB0090AD63 /* FZConst.swift */; };
+		B7D269BA2203E3FE0090AD63 /* homeAdv1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D269B92203E3FE0090AD63 /* homeAdv1@2x.png */; };
+		B7D269BC2203E40F0090AD63 /* homeAdv2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D269BB2203E40F0090AD63 /* homeAdv2@2x.png */; };
+		B7D269BE2203E41A0090AD63 /* homeAdv3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D269BD2203E41A0090AD63 /* homeAdv3@2x.png */; };
+		C988B936CC3A7D7E021FB71D /* Pods_FZSwiftProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860AADBF19B7337488D2C67 /* Pods_FZSwiftProduct.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +64,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FA9A9B7B0DBFFB34CDDEEDD /* Pods-FZSwiftProduct-FZSwiftProductUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZSwiftProduct-FZSwiftProductUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductUITests/Pods-FZSwiftProduct-FZSwiftProductUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21A39AA85CB091BDAE0FBAA7 /* Pods-FZSwiftProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZSwiftProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZSwiftProduct/Pods-FZSwiftProduct.release.xcconfig"; sourceTree = "<group>"; };
+		41100097CE00DEA835E9E040 /* Pods-FZSwiftProduct-FZSwiftProductTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZSwiftProduct-FZSwiftProductTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductTests/Pods-FZSwiftProduct-FZSwiftProductTests.release.xcconfig"; sourceTree = "<group>"; };
+		44294206A31BA813FF19B10B /* Pods_FZSwiftProductUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZSwiftProductUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616047CE4EF44ABD74CD70C2 /* Pods-FZSwiftProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZSwiftProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZSwiftProduct/Pods-FZSwiftProduct.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE6336834665690939E64C6 /* Pods-FZSwiftProduct-FZSwiftProductUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZSwiftProduct-FZSwiftProductUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductUITests/Pods-FZSwiftProduct-FZSwiftProductUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A860AADBF19B7337488D2C67 /* Pods_FZSwiftProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZSwiftProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B713ECC72202836500EED33A /* FZSwiftProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZSwiftProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B713ECCA2202836500EED33A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B713ECCC2202836500EED33A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +84,38 @@
 		B713ECE62202836600EED33A /* FZSwiftProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZSwiftProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B713ECEA2202836600EED33A /* FZSwiftProductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZSwiftProductUITests.swift; sourceTree = "<group>"; };
 		B713ECEC2202836600EED33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B713ECFA2202864F00EED33A /* FZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZBaseViewController.swift; sourceTree = "<group>"; };
+		B713ECFC220286A100EED33A /* FZBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZBaseNavigationController.swift; sourceTree = "<group>"; };
+		B713ECFE2202898600EED33A /* FZBaseTabarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZBaseTabarController.swift; sourceTree = "<group>"; };
+		B713ED0322029B7800EED33A /* FZHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZHomeVC.swift; sourceTree = "<group>"; };
+		B713ED0422029B7800EED33A /* FZHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FZHomeVC.xib; sourceTree = "<group>"; };
+		B713ED0822029EBC00EED33A /* FZCustomerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCustomerVC.swift; sourceTree = "<group>"; };
+		B713ED0922029EBC00EED33A /* FZCustomerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FZCustomerVC.xib; sourceTree = "<group>"; };
+		B713ED0D2202A12500EED33A /* FZStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZStoreVC.swift; sourceTree = "<group>"; };
+		B713ED0E2202A12500EED33A /* FZStoreVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FZStoreVC.xib; sourceTree = "<group>"; };
+		B713ED122202A17700EED33A /* FZMineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZMineVC.swift; sourceTree = "<group>"; };
+		B713ED132202A17700EED33A /* FZMineVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FZMineVC.xib; sourceTree = "<group>"; };
+		B713ED222202D08F00EED33A /* xiaoer_tab_customericonY@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_customericonY@3x.png"; sourceTree = "<group>"; };
+		B713ED232202D08F00EED33A /* xiaoer_tab_customericonY@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_customericonY@1x.png"; sourceTree = "<group>"; };
+		B713ED242202D08F00EED33A /* xiaoer_tab_customericonY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_customericonY@2x.png"; sourceTree = "<group>"; };
+		B713ED2E2202D1CA00EED33A /* xiaoer_tab_homeiconY@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_homeiconY@1x.png"; sourceTree = "<group>"; };
+		B713ED2F2202D1CA00EED33A /* xiaoer_tab_homeiconY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_homeiconY@2x.png"; sourceTree = "<group>"; };
+		B713ED302202D1CA00EED33A /* xiaoer_tab_homeiconY@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_homeiconY@3x.png"; sourceTree = "<group>"; };
+		B713ED342202D30000EED33A /* xiaoer_tab_shopY@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_shopY@3x.png"; sourceTree = "<group>"; };
+		B713ED352202D30000EED33A /* xiaoer_tab_shopY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_shopY@2x.png"; sourceTree = "<group>"; };
+		B713ED362202D30000EED33A /* xiaoer_tab_shopY@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_shopY@1x.png"; sourceTree = "<group>"; };
+		B713ED402202D3F500EED33A /* xiaoer_tab_usericonY@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_usericonY@1x.png"; sourceTree = "<group>"; };
+		B713ED412202D3F500EED33A /* xiaoer_tab_usericonY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_usericonY@2x.png"; sourceTree = "<group>"; };
+		B713ED422202D3F500EED33A /* xiaoer_tab_usericonY@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoer_tab_usericonY@3x.png"; sourceTree = "<group>"; };
+		B713ED4A2202E56400EED33A /* FZSwiftProduct-Brdging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FZSwiftProduct-Brdging-Header.h"; sourceTree = "<group>"; };
+		B7D269B62203D7CB0090AD63 /* FZConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZConst.swift; sourceTree = "<group>"; };
+		B7D269B92203E3FE0090AD63 /* homeAdv1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeAdv1@2x.png"; sourceTree = "<group>"; };
+		B7D269BB2203E40F0090AD63 /* homeAdv2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeAdv2@2x.png"; sourceTree = "<group>"; };
+		B7D269BD2203E41A0090AD63 /* homeAdv3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeAdv3@2x.png"; sourceTree = "<group>"; };
+		DBAF79B269AC659819AFE3A0 /* Pods_FZSwiftProduct_FZSwiftProductTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZSwiftProduct_FZSwiftProductTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE13A8C6C7693AFE05A00251 /* Pods-FZSwiftProduct-FZSwiftProductTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZSwiftProduct-FZSwiftProductTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductTests/Pods-FZSwiftProduct-FZSwiftProductTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE93CC94F40320D2EAE10D4A /* Pods_FZSwiftProduct_FZSwiftProductUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZSwiftProduct_FZSwiftProductUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7EEA0DDDA96ED32C896B6B /* Pods_FZSwiftProductTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZSwiftProductTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C988B936CC3A7D7E021FB71D /* Pods_FZSwiftProduct.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6658E73DB20021F6CF688C /* Pods_FZSwiftProduct_FZSwiftProductTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +139,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4145020A8ACD8BD54C50BCCB /* Pods_FZSwiftProduct_FZSwiftProductUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31B08E7132D1F39A43B8769C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				616047CE4EF44ABD74CD70C2 /* Pods-FZSwiftProduct.debug.xcconfig */,
+				21A39AA85CB091BDAE0FBAA7 /* Pods-FZSwiftProduct.release.xcconfig */,
+				DE13A8C6C7693AFE05A00251 /* Pods-FZSwiftProduct-FZSwiftProductTests.debug.xcconfig */,
+				41100097CE00DEA835E9E040 /* Pods-FZSwiftProduct-FZSwiftProductTests.release.xcconfig */,
+				7BE6336834665690939E64C6 /* Pods-FZSwiftProduct-FZSwiftProductUITests.debug.xcconfig */,
+				1FA9A9B7B0DBFFB34CDDEEDD /* Pods-FZSwiftProduct-FZSwiftProductUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B713ECBE2202836500EED33A = {
 			isa = PBXGroup;
 			children = (
+				B7D269B62203D7CB0090AD63 /* FZConst.swift */,
+				B713ED4A2202E56400EED33A /* FZSwiftProduct-Brdging-Header.h */,
+				B713ED0122029A3D00EED33A /* FZCommonFunction */,
+				B713ED0022029A2700EED33A /* FZFunction */,
+				B713ECF9220285CC00EED33A /* FZBaseClass */,
 				B713ECC92202836500EED33A /* FZSwiftProduct */,
+				B713ED162202CF3800EED33A /* FZResourceFile */,
 				B713ECDE2202836600EED33A /* FZSwiftProductTests */,
 				B713ECE92202836600EED33A /* FZSwiftProductUITests */,
 				B713ECC82202836500EED33A /* Products */,
+				31B08E7132D1F39A43B8769C /* Pods */,
+				C51FDE8A41E7B0DF8E38F042 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +218,152 @@
 			path = FZSwiftProductUITests;
 			sourceTree = "<group>";
 		};
+		B713ECF9220285CC00EED33A /* FZBaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				B713ECFA2202864F00EED33A /* FZBaseViewController.swift */,
+				B713ECFC220286A100EED33A /* FZBaseNavigationController.swift */,
+				B713ECFE2202898600EED33A /* FZBaseTabarController.swift */,
+			);
+			path = FZBaseClass;
+			sourceTree = "<group>";
+		};
+		B713ED0022029A2700EED33A /* FZFunction */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED0222029B4900EED33A /* Home */,
+				B713ED0722029E4100EED33A /* Customer */,
+				B713ED0C2202A08E00EED33A /* Store */,
+				B713ED112202A14D00EED33A /* Mine */,
+			);
+			path = FZFunction;
+			sourceTree = "<group>";
+		};
+		B713ED0122029A3D00EED33A /* FZCommonFunction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FZCommonFunction;
+			sourceTree = "<group>";
+		};
+		B713ED0222029B4900EED33A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED0322029B7800EED33A /* FZHomeVC.swift */,
+				B713ED0422029B7800EED33A /* FZHomeVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B713ED0722029E4100EED33A /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED0822029EBC00EED33A /* FZCustomerVC.swift */,
+				B713ED0922029EBC00EED33A /* FZCustomerVC.xib */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		B713ED0C2202A08E00EED33A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED0D2202A12500EED33A /* FZStoreVC.swift */,
+				B713ED0E2202A12500EED33A /* FZStoreVC.xib */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		B713ED112202A14D00EED33A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED122202A17700EED33A /* FZMineVC.swift */,
+				B713ED132202A17700EED33A /* FZMineVC.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		B713ED162202CF3800EED33A /* FZResourceFile */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED172202CFA000EED33A /* Pic */,
+			);
+			path = FZResourceFile;
+			sourceTree = "<group>";
+		};
+		B713ED172202CFA000EED33A /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED182202CFAB00EED33A /* lcb_Pic */,
+			);
+			path = Pic;
+			sourceTree = "<group>";
+		};
+		B713ED182202CFAB00EED33A /* lcb_Pic */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED1A2202CFE300EED33A /* AppSecial_Pic */,
+				B713ED192202CFC700EED33A /* AppStyle_Pic */,
+			);
+			path = lcb_Pic;
+			sourceTree = "<group>";
+		};
+		B713ED192202CFC700EED33A /* AppStyle_Pic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppStyle_Pic;
+			sourceTree = "<group>";
+		};
+		B713ED1A2202CFE300EED33A /* AppSecial_Pic */ = {
+			isa = PBXGroup;
+			children = (
+				B7D269B82203E3E00090AD63 /* home */,
+				B713ED1B2202D01B00EED33A /* tabar */,
+			);
+			path = AppSecial_Pic;
+			sourceTree = "<group>";
+		};
+		B713ED1B2202D01B00EED33A /* tabar */ = {
+			isa = PBXGroup;
+			children = (
+				B713ED232202D08F00EED33A /* xiaoer_tab_customericonY@1x.png */,
+				B713ED242202D08F00EED33A /* xiaoer_tab_customericonY@2x.png */,
+				B713ED222202D08F00EED33A /* xiaoer_tab_customericonY@3x.png */,
+				B713ED2E2202D1CA00EED33A /* xiaoer_tab_homeiconY@1x.png */,
+				B713ED2F2202D1CA00EED33A /* xiaoer_tab_homeiconY@2x.png */,
+				B713ED302202D1CA00EED33A /* xiaoer_tab_homeiconY@3x.png */,
+				B713ED362202D30000EED33A /* xiaoer_tab_shopY@1x.png */,
+				B713ED352202D30000EED33A /* xiaoer_tab_shopY@2x.png */,
+				B713ED342202D30000EED33A /* xiaoer_tab_shopY@3x.png */,
+				B713ED402202D3F500EED33A /* xiaoer_tab_usericonY@1x.png */,
+				B713ED412202D3F500EED33A /* xiaoer_tab_usericonY@2x.png */,
+				B713ED422202D3F500EED33A /* xiaoer_tab_usericonY@3x.png */,
+			);
+			path = tabar;
+			sourceTree = "<group>";
+		};
+		B7D269B82203E3E00090AD63 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B7D269B92203E3FE0090AD63 /* homeAdv1@2x.png */,
+				B7D269BB2203E40F0090AD63 /* homeAdv2@2x.png */,
+				B7D269BD2203E41A0090AD63 /* homeAdv3@2x.png */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		C51FDE8A41E7B0DF8E38F042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A860AADBF19B7337488D2C67 /* Pods_FZSwiftProduct.framework */,
+				FF7EEA0DDDA96ED32C896B6B /* Pods_FZSwiftProductTests.framework */,
+				44294206A31BA813FF19B10B /* Pods_FZSwiftProductUITests.framework */,
+				DBAF79B269AC659819AFE3A0 /* Pods_FZSwiftProduct_FZSwiftProductTests.framework */,
+				DE93CC94F40320D2EAE10D4A /* Pods_FZSwiftProduct_FZSwiftProductUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +371,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B713ECEF2202836600EED33A /* Build configuration list for PBXNativeTarget "FZSwiftProduct" */;
 			buildPhases = (
+				AF467D4F9CF5B7F73D953A1A /* [CP] Check Pods Manifest.lock */,
 				B713ECC32202836500EED33A /* Sources */,
 				B713ECC42202836500EED33A /* Frameworks */,
 				B713ECC52202836500EED33A /* Resources */,
+				5CC741C9AB56168DBB17AD5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +390,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B713ECF22202836600EED33A /* Build configuration list for PBXNativeTarget "FZSwiftProductTests" */;
 			buildPhases = (
+				FC447EA1E79D583638247B7F /* [CP] Check Pods Manifest.lock */,
 				B713ECD72202836600EED33A /* Sources */,
 				B713ECD82202836600EED33A /* Frameworks */,
 				B713ECD92202836600EED33A /* Resources */,
+				BD3370B21434B9346230E3B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +410,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B713ECF52202836600EED33A /* Build configuration list for PBXNativeTarget "FZSwiftProductUITests" */;
 			buildPhases = (
+				E39E566E6B9909F2FCC47E81 /* [CP] Check Pods Manifest.lock */,
 				B713ECE22202836600EED33A /* Sources */,
 				B713ECE32202836600EED33A /* Frameworks */,
 				B713ECE42202836600EED33A /* Resources */,
+				DD70B1C1268412599E7C43F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +474,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B713ED432202D3F600EED33A /* xiaoer_tab_usericonY@1x.png in Resources */,
+				B713ED442202D3F600EED33A /* xiaoer_tab_usericonY@2x.png in Resources */,
+				B713ED152202A17700EED33A /* FZMineVC.xib in Resources */,
+				B713ED252202D09000EED33A /* xiaoer_tab_customericonY@3x.png in Resources */,
+				B713ED392202D30100EED33A /* xiaoer_tab_shopY@1x.png in Resources */,
+				B713ED262202D09000EED33A /* xiaoer_tab_customericonY@1x.png in Resources */,
+				B713ED102202A12500EED33A /* FZStoreVC.xib in Resources */,
+				B7D269BE2203E41A0090AD63 /* homeAdv3@2x.png in Resources */,
+				B713ED272202D09000EED33A /* xiaoer_tab_customericonY@2x.png in Resources */,
+				B713ED372202D30100EED33A /* xiaoer_tab_shopY@3x.png in Resources */,
 				B713ECD52202836600EED33A /* LaunchScreen.storyboard in Resources */,
+				B713ED332202D1CA00EED33A /* xiaoer_tab_homeiconY@3x.png in Resources */,
+				B713ED382202D30100EED33A /* xiaoer_tab_shopY@2x.png in Resources */,
+				B713ED0B22029EBC00EED33A /* FZCustomerVC.xib in Resources */,
+				B7D269BC2203E40F0090AD63 /* homeAdv2@2x.png in Resources */,
+				B713ED312202D1CA00EED33A /* xiaoer_tab_homeiconY@1x.png in Resources */,
+				B713ED322202D1CA00EED33A /* xiaoer_tab_homeiconY@2x.png in Resources */,
 				B713ECD22202836600EED33A /* Assets.xcassets in Resources */,
 				B713ECD02202836500EED33A /* Main.storyboard in Resources */,
+				B7D269BA2203E3FE0090AD63 /* homeAdv1@2x.png in Resources */,
+				B713ED0622029B7800EED33A /* FZHomeVC.xib in Resources */,
+				B713ED452202D3F600EED33A /* xiaoer_tab_usericonY@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +515,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CC741C9AB56168DBB17AD5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct/Pods-FZSwiftProduct-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct/Pods-FZSwiftProduct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF467D4F9CF5B7F73D953A1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FZSwiftProduct-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD3370B21434B9346230E3B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductTests/Pods-FZSwiftProduct-FZSwiftProductTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductTests/Pods-FZSwiftProduct-FZSwiftProductTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD70B1C1268412599E7C43F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductUITests/Pods-FZSwiftProduct-FZSwiftProductUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductUITests/Pods-FZSwiftProduct-FZSwiftProductUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39E566E6B9909F2FCC47E81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FZSwiftProduct-FZSwiftProductUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC447EA1E79D583638247B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FZSwiftProduct-FZSwiftProductTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B713ECC32202836500EED33A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B713ED0F2202A12500EED33A /* FZStoreVC.swift in Sources */,
 				B713ECCD2202836500EED33A /* ViewController.swift in Sources */,
+				B713ED0A22029EBC00EED33A /* FZCustomerVC.swift in Sources */,
+				B7D269B72203D7CB0090AD63 /* FZConst.swift in Sources */,
+				B713ECFB2202864F00EED33A /* FZBaseViewController.swift in Sources */,
 				B713ECCB2202836500EED33A /* AppDelegate.swift in Sources */,
+				B713ED0522029B7800EED33A /* FZHomeVC.swift in Sources */,
+				B713ECFF2202898600EED33A /* FZBaseTabarController.swift in Sources */,
+				B713ECFD220286A100EED33A /* FZBaseNavigationController.swift in Sources */,
+				B713ED142202A17700EED33A /* FZMineVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,40 +843,49 @@
 		};
 		B713ECF02202836600EED33A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616047CE4EF44ABD74CD70C2 /* Pods-FZSwiftProduct.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ECXU495BLB;
 				INFOPLIST_FILE = FZSwiftProduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fzsdzijingbaoxian.enterprise.PhotoToBig.FZSwiftProduct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzsddinglongbao.enterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = FZSD_DINGLONGBAO_DEV;
+				SWIFT_OBJC_BRIDGING_HEADER = "FZSwiftProduct-Brdging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B713ECF12202836600EED33A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A39AA85CB091BDAE0FBAA7 /* Pods-FZSwiftProduct.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FZSwiftProduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fzsdzijingbaoxian.enterprise.PhotoToBig.FZSwiftProduct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzsddinglongbao.enterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FZSwiftProduct-Brdging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		B713ECF32202836600EED33A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE13A8C6C7693AFE05A00251 /* Pods-FZSwiftProduct-FZSwiftProductTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +906,7 @@
 		};
 		B713ECF42202836600EED33A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41100097CE00DEA835E9E040 /* Pods-FZSwiftProduct-FZSwiftProductTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +927,7 @@
 		};
 		B713ECF62202836600EED33A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE6336834665690939E64C6 /* Pods-FZSwiftProduct-FZSwiftProductUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +947,7 @@
 		};
 		B713ECF72202836600EED33A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA9A9B7B0DBFFB34CDDEEDD /* Pods-FZSwiftProduct-FZSwiftProductUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
