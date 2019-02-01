@@ -14,17 +14,17 @@ class FZHomeVC: FZBaseViewController,SDCycleScrollViewDelegate {
     @IBOutlet weak var mScrollView: UIScrollView!
     @IBOutlet weak var advImageView: UIImageView!
     
+    
+    
     lazy var adScrollView:SDCycleScrollView = {
         let rect = CGRect(x: 0, y: 0, width: K_SCREEN_WIDTH, height: 180)
         let adScrollView = SDCycleScrollView.init(frame: rect)
-        var images = [AnyObject]()
-        images.append(UIImage.init(named: "homeAdv1")!)
-        images.append(UIImage.init(named: "homeAdv2")!)
-        images.append(UIImage.init(named: "homeAdv3")!)
-        adScrollView.localizationImageNamesGroup = images
+        adScrollView.localizationImageNamesGroup = [UIImage.init(named: "homeAdv1")!,UIImage.init(named: "homeAdv2")!,UIImage.init(named: "homeAdv3")!]
         adScrollView.delegate = self
         return adScrollView
     }()
+    
+    
     
     
     override func viewDidLoad() {
@@ -39,8 +39,8 @@ class FZHomeVC: FZBaseViewController,SDCycleScrollViewDelegate {
         super.viewWillAppear(animated)
     }
     
-    func cycleScrollView(_ cycleScrollView: SDCycleScrollView!, didScrollTo index: Int) {
-        
+    func cycleScrollView(_ cycleScrollView: SDCycleScrollView!, didSelectItemAt index: Int) {
+        NSLog("w呵呵")
     }
 
 }
