@@ -11,5 +11,6 @@
 
 #import "AFNetworking/AFNetworking.h"
 #import "SDCycleScrollView/SDCycleScrollView.h"
+#import "MJRefresh/MJRefresh.h"
 
 #endif /* FZSwiftProduct_Brdging_Header_h */

@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="advImageView" destination="Ej4-Iy-PNU" id="MdI-kE-LhS"/>
                 <outlet property="mScrollView" destination="H0a-nj-8fy" id="2ne-d2-nsi"/>
+                <outlet property="mStudyTipImageView" destination="gjY-J4-ecC" id="h2h-8A-Mod"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,6 +29,24 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZn-Dq-moR" userLabel="ContentView">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="471"/>
                             <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gjY-J4-ecC">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" id="ATi-ji-X1j"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeAdv1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ej4-Iy-PNU">
+                                    <rect key="frame" x="0.0" y="0.5" width="375" height="180"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="180" id="5aT-N5-6j2"/>
+                                        <constraint firstAttribute="width" secondItem="Ej4-Iy-PNU" secondAttribute="height" multiplier="261:140" id="jP6-vf-fup"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="jP6-vf-fup"/>
+                                        </mask>
+                                    </variation>
+                                </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5r-YU-llZ">
                                     <rect key="frame" x="0.0" y="216.5" width="375" height="51"/>
                                     <subviews>
@@ -130,18 +149,6 @@
                                         <constraint firstAttribute="trailing" secondItem="f17-dD-Uhd" secondAttribute="trailing" constant="0.5" id="vaG-q8-VTs"/>
                                     </constraints>
                                 </view>
-                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeAdv1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ej4-Iy-PNU">
-                                    <rect key="frame" x="0.0" y="0.5" width="375" height="180"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="180" id="5aT-N5-6j2"/>
-                                        <constraint firstAttribute="width" secondItem="Ej4-Iy-PNU" secondAttribute="height" multiplier="261:140" id="jP6-vf-fup"/>
-                                    </constraints>
-                                    <variation key="default">
-                                        <mask key="constraints">
-                                            <exclude reference="jP6-vf-fup"/>
-                                        </mask>
-                                    </variation>
-                                </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N9U-QX-nsb">
                                     <rect key="frame" x="0.0" y="403" width="375" height="68"/>
                                     <subviews>
@@ -305,12 +312,6 @@
                                         </mask>
                                     </variation>
                                 </view>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gjY-J4-ecC">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.0"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" id="ATi-ji-X1j"/>
-                                    </constraints>
-                                </imageView>
                             </subviews>
                             <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
@@ -367,7 +368,7 @@
     </objects>
     <resources>
         <image name="downArrow.png" width="16" height="16"/>
-        <image name="homeAdv1.png" width="16" height="16"/>
+        <image name="homeAdv1.png" width="375" height="187"/>
         <image name="homeOcr" width="16" height="16"/>
         <image name="homeQ.png" width="16" height="16"/>
         <image name="shang" width="16" height="16"/>

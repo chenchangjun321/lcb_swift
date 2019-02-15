@@ -43,6 +43,7 @@
 		B7D269BA2203E3FE0090AD63 /* homeAdv1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D269B92203E3FE0090AD63 /* homeAdv1@2x.png */; };
 		B7D269BC2203E40F0090AD63 /* homeAdv2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D269BB2203E40F0090AD63 /* homeAdv2@2x.png */; };
 		B7D269BE2203E41A0090AD63 /* homeAdv3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D269BD2203E41A0090AD63 /* homeAdv3@2x.png */; };
+		B7F634E82216AB5B00449F47 /* NetWorkUikits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F634E72216AB5B00449F47 /* NetWorkUikits.swift */; };
 		C988B936CC3A7D7E021FB71D /* Pods_FZSwiftProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A860AADBF19B7337488D2C67 /* Pods_FZSwiftProduct.framework */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +113,7 @@
 		B7D269B92203E3FE0090AD63 /* homeAdv1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeAdv1@2x.png"; sourceTree = "<group>"; };
 		B7D269BB2203E40F0090AD63 /* homeAdv2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeAdv2@2x.png"; sourceTree = "<group>"; };
 		B7D269BD2203E41A0090AD63 /* homeAdv3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeAdv3@2x.png"; sourceTree = "<group>"; };
+		B7F634E72216AB5B00449F47 /* NetWorkUikits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkUikits.swift; sourceTree = "<group>"; };
 		DBAF79B269AC659819AFE3A0 /* Pods_FZSwiftProduct_FZSwiftProductTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZSwiftProduct_FZSwiftProductTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE13A8C6C7693AFE05A00251 /* Pods-FZSwiftProduct-FZSwiftProductTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZSwiftProduct-FZSwiftProductTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductTests/Pods-FZSwiftProduct-FZSwiftProductTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE93CC94F40320D2EAE10D4A /* Pods_FZSwiftProduct_FZSwiftProductUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZSwiftProduct_FZSwiftProductUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +169,7 @@
 				B713ED0122029A3D00EED33A /* FZCommonFunction */,
 				B713ED0022029A2700EED33A /* FZFunction */,
 				B713ECF9220285CC00EED33A /* FZBaseClass */,
+				B7F634E42216AA4200449F47 /* FZCoreCode */,
 				B713ECC92202836500EED33A /* FZSwiftProduct */,
 				B713ED162202CF3800EED33A /* FZResourceFile */,
 				B713ECDE2202836600EED33A /* FZSwiftProductTests */,
@@ -352,6 +355,14 @@
 			path = home;
 			sourceTree = "<group>";
 		};
+		B7F634E42216AA4200449F47 /* FZCoreCode */ = {
+			isa = PBXGroup;
+			children = (
+				B7F634E72216AB5B00449F47 /* NetWorkUikits.swift */,
+			);
+			path = FZCoreCode;
+			sourceTree = "<group>";
+		};
 		C51FDE8A41E7B0DF8E38F042 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -524,6 +535,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct/Pods-FZSwiftProduct-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
@@ -533,6 +545,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
@@ -570,6 +583,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductTests/Pods-FZSwiftProduct-FZSwiftProductTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
@@ -579,6 +593,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
@@ -598,6 +613,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FZSwiftProduct-FZSwiftProductUITests/Pods-FZSwiftProduct-FZSwiftProductUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
@@ -607,6 +623,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
@@ -666,6 +683,7 @@
 				B713ED0A22029EBC00EED33A /* FZCustomerVC.swift in Sources */,
 				B7D269B72203D7CB0090AD63 /* FZConst.swift in Sources */,
 				B713ECFB2202864F00EED33A /* FZBaseViewController.swift in Sources */,
+				B7F634E82216AB5B00449F47 /* NetWorkUikits.swift in Sources */,
 				B713ECCB2202836500EED33A /* AppDelegate.swift in Sources */,
 				B713ED0522029B7800EED33A /* FZHomeVC.swift in Sources */,
 				B713ECFF2202898600EED33A /* FZBaseTabarController.swift in Sources */,

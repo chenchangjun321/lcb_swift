@@ -8,7 +8,8 @@ target 'FZSwiftProduct' do
     pod 'AFNetworking', '~> 3.2.1'
     pod 'SDCycleScrollView', '~> 1.75'
     pod 'ReactiveCocoa', '~> 8.0.2'
-    
+    pod 'MJRefresh', '~> 3.1.0'
+
     
   target 'FZSwiftProductTests' do
     # Pods for testing
